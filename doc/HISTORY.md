@@ -1,3 +1,7 @@
+# Version 0.11.0-no-o-bullet
+
+  * ' o ' removed as a bullet point pattern, use ' * '
+
 # Version 0.11.0
 
   * SVG rendering

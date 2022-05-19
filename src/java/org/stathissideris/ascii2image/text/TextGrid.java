@@ -910,7 +910,7 @@ public class TextGrid {
 	
 	public boolean isBullet(Cell cell){
 		char c = get(cell);
-		if((c == 'o' || c == '*')
+		if(c == '*'
 			&& isBlank(cell.getEast())
 			&& isBlank(cell.getWest())
 			&& Character.isLetterOrDigit(get(cell.getEast().getEast())) )
