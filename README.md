@@ -341,9 +341,9 @@ is still experimental). See below:
 
 #### Text handling
 
-If the pattern ' * XXXXX' is encountered, where XXXXX is any text, the
-'*' is interpreted and rendered as a bullet point. Note that there
-must be a space before the '*' as well as after it. See below:
+If the pattern ' \* XXXXX' is encountered, where XXXXX is any text, the
+'\*' is interpreted and rendered as a bullet point. Note that there
+must be a space before the '\*' as well as after it. See below:
 
 ```
 /-----------------\
